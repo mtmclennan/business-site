@@ -5,6 +5,7 @@ export const getAllPosts = async () => {
   }
   const res = await fetch(process.env.SERVER_URL);
   const posts = await res.json();
+
   return posts;
 };
 

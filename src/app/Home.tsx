@@ -1,14 +1,14 @@
 "use client";
 
 import { Fragment } from "react";
-import Head from "next/head";
+
 import Image from "next/image";
-import logo from "../../public/assets/ColorEMLargelogo-nobackground.png";
+import logo from "../../public/assets/Color logo - no background.svg";
 import { useRouter } from "next/navigation";
-import type { Metadata } from "next";
+// import type { Metadata } from "next";
 
 // export const metadata: Metadata = {
-//   title: "EDGEINMIND: Mastering Stock Market Mindset for Success",
+//   title: "EDGEINBUSINESS: Mastering Stock Market Mindset for Success",
 //   description:
 //     "EDGEINMIND: Your gateway to gaining an upper hand in the market. Harness the power of mindset, refine your approach, and achieve trading excellence.",
 // };
@@ -18,18 +18,11 @@ const Home = () => {
 
   return (
     <Fragment>
-      <Head>
-        <title>Home | EDGEINMIND</title>
-        <meta
-          name="description"
-          content="EdgeInMind: Your gateway to gaining an upper hand in the market. Harness the power of mindset, refine your approach, and achieve trading excellence."
-        />
-      </Head>
       <div className="hero__container">
         <section className="hero">
           <div className="hero-title">
-            <h3>Hello Traders!</h3>
-            <h2>Looking an Edge in the Market?</h2>
+            <h3>Hello Entrepreneurs!</h3>
+            <h2>Looking an Edge in Your Business?</h2>
             <div className="hero__button-container">
               <button onClick={() => router.push("/blog")}>Blog</button>
               <button onClick={() => router.push("/tools")}>Tools</button>
