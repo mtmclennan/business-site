@@ -5,13 +5,6 @@ import { Fragment } from "react";
 import Image from "next/image";
 import logo from "../../public/assets/Color logo - no background.svg";
 import { useRouter } from "next/navigation";
-// import type { Metadata } from "next";
-
-// export const metadata: Metadata = {
-//   title: "EDGEINBUSINESS: Mastering Stock Market Mindset for Success",
-//   description:
-//     "EDGEINMIND: Your gateway to gaining an upper hand in the market. Harness the power of mindset, refine your approach, and achieve trading excellence.",
-// };
 
 const Home = () => {
   const router = useRouter();

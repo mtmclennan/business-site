@@ -2,7 +2,6 @@
 
 import { GetStaticProps } from "next";
 import { ParsedUrlQuery } from "querystring";
-import Head from "next/head";
 import { Fragment } from "react";
 import PostContent from "../../_components/posts/PostContent";
 import { getAllPosts, getBySlug } from "../../_lib/post-utils";
@@ -13,15 +12,7 @@ type PostDetailPageProps = {
 };
 
 function PostDetail({ post }: PostDetailPageProps) {
-  return (
-    <Fragment>
-      <Head>
-        <title>{post ? post.title : ""}</title>
-        <meta name="description" content={post ? post.description : ""} />
-      </Head>
-      {post ? <PostContent post={post} /> : ""}
-    </Fragment>
-  );
+  return <Fragment>{post ? <PostContent post={post} /> : ""}</Fragment>;
 }
 
 interface IParams extends ParsedUrlQuery {

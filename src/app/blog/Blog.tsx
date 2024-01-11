@@ -59,15 +59,6 @@ const Blog = ({ posts }: PostsData) => {
 
   return (
     <Fragment>
-      {/* <Head>
-        <title>
-          Blog | EDGEINMIND: Mastering Stock Market Mindset for Success
-        </title>
-        <meta
-          name="description"
-          content="EDGEINMIND: Your gateway to gaining an upper hand in the market. Harness the power of mindset, refine your approach, and achieve trading excellence."
-        />
-      </Head> */}
       {featuredPost && (
         <FeaturedPost featuredPost={featuredPost} formatDate={formatDate} />
       )}
@@ -94,19 +85,5 @@ const Blog = ({ posts }: PostsData) => {
     </Fragment>
   );
 };
-
-// export async function getStaticProps() {
-//   const posts = await getAllPosts();
-
-//   // const slugs = posts.map((post) => post.slug);
-//   // console.log(slugs);
-
-//   // By returning { props: { posts } }, the Blog component
-//   // will receive `posts` as a prop at build time
-//   return {
-//     props: { posts },
-//     revalidate: 60,
-//   };
-// }
 
 export default Blog;

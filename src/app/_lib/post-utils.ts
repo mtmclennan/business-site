@@ -3,7 +3,8 @@ export const getAllPosts = async () => {
     console.log("ERROR: NO SERVER URL in process.env");
     return;
   }
-  const res = await fetch(process.env.SERVER_URL);
+  const res = await fetch(process.env.SERVER_URL, { cache: "no-store" });
+
   const posts = await res.json();
 
   return posts;

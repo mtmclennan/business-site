@@ -312,6 +312,8 @@ button {
 
   & h3 {
     margin-top: 3.5rem;
+    font-size: 2.4rem;
+    font-weight: 600;
   }
 }
 
@@ -375,6 +377,7 @@ button {
 }
 
 .contact-hero {
+  min-width: 30rem;
   & h3 {
     text-align: center;
     font-size: 2.5rem;
@@ -414,7 +417,7 @@ button {
   text-align: center;
   margin-bottom: 1rem;
 
-  color: v.$grey-color-1;
+  color: v.$grey-color-9;
 }
 
 .contact-form__container {

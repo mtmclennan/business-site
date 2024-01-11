@@ -10,15 +10,15 @@ const TermsAndConditions = () => {
       <div className="terms__wrapper">
         <section className="terms">
           <p>
-            Welcome to EdgeInMind.com! By accessing and using this website, you
-            agree to be bound by these Terms and Conditions. Please read them
-            carefully before using our services.
+            Welcome to EdgeInBusiness.com! By accessing and using this website,
+            you agree to be bound by these Terms and Conditions. Please read
+            them carefully before using our services.
           </p>
           <p>&nbsp;</p>
           <p>Intellectual Property:</p>
           <p>
             All content, including text, graphics, images, logos, and other
-            materials on EdgeInMind.com, are the intellectual property of
+            materials on EdgeInBusiness.com, are the intellectual property of
             EdgeInMind. You may not reproduce, modify, distribute, or republish
             any content from this website without our prior written consent.
           </p>
@@ -26,14 +26,14 @@ const TermsAndConditions = () => {
           <p>Use of Website:</p>
           <p>
             You are granted a limited, non-exclusive, and non-transferable
-            license to access and use EdgeInMind.com for personal,
+            license to access and use EdgeInBusiness.com for personal,
             non-commercial purposes only. You agree not to use this website for
             any unlawful or prohibited activities.
           </p>
           <p>&nbsp;</p>
           <p>Disclaimer of Warranties:</p>
           <p>
-            EdgeInMind.com and its content are provided &quot;as is&quot;
+            EdgeInBusiness.com and its content are provided &quot;as is&quot;
             without any warranties, express or implied. We do not guarantee the
             accuracy, completeness, or reliability of the information on this
             website. Your use of this website is at your own risk.
@@ -50,7 +50,7 @@ const TermsAndConditions = () => {
           <p>&nbsp;</p>
           <p>Third-Party Content and Links:</p>
           <p>
-            EdgeInMind.com may include third-party content, links, or
+            EdgeInBusiness.com may include third-party content, links, or
             advertisements. We do not endorse, control, or assume responsibility
             for any third-party websites or their content. Your interactions
             with third-party websites are subject to their respective terms and
@@ -59,14 +59,14 @@ const TermsAndConditions = () => {
           <p>&nbsp;</p>
           <p>Modification of Services:</p>
           <p>
-            EdgeInMind reserves the right to modify or discontinue any aspect of
-            this website, including its content and services, at any time
-            without prior notice.
+            EdgeInBusiness reserves the right to modify or discontinue any
+            aspect of this website, including its content and services, at any
+            time without prior notice.
           </p>
           <p>&nbsp;</p>
           <p>Indemnification:</p>
           <p>
-            You agree to indemnify and hold harmless EdgeInMind and its team
+            You agree to indemnify and hold harmless EdgeInBusiness and its team
             from any claims, losses, damages, liabilities, and expenses arising
             out of your use of this website or violation of these Terms and
             Conditions.
@@ -91,7 +91,8 @@ const TermsAndConditions = () => {
           <p>Contact Us:</p>
           <p>
             If you have any questions, concerns, or requests regarding these
-            Terms and Conditions, please contact us at edgeinmind@gmail.com.
+            Terms and Conditions, please contact us at
+            edgeinbusiness0@gmail.com.
           </p>
           <p>&nbsp;</p>
           <p></p>
@@ -106,9 +107,9 @@ const TermsAndConditions = () => {
           <p>&nbsp;</p>
 
           <p>
-            By using EdgeInMind.com, you acknowledge that you have read,
+            By using EdgeInBusiness.com, you acknowledge that you have read,
             understood, and agreed to abide by these Terms, Conditions,
-            disclaimers and privacy policy. Last updated July 27, 2023.
+            disclaimers and privacy policy. Last updated January 8, 2024.
           </p>
         </section>
       </div>
