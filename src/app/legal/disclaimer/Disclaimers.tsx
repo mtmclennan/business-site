@@ -17,7 +17,8 @@ const Disclaimers = () => {
             accurate and up-to-date, we make no representations or warranties of
             any kind, express or implied, about the completeness, reliability,
             suitability, or availability of the information on this website.
-            Your use of the information on EdgeInMind.com is at your own risk.
+            Your use of the information on EdgeInBusiness.com is at your own
+            risk.
           </p>
           <p>&nbsp;</p>
           <p>

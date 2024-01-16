@@ -1,6 +1,5 @@
 import React from "react";
 import { DayAction, DayState } from "../_lib/reducers/dayReducer";
-import { WeekAction } from "../_lib/reducers/weekReducer";
 import { Html, Post, Workday } from "./interfaces";
 
 export type SetStateBoolean = React.Dispatch<React.SetStateAction<boolean>>;

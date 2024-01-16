@@ -5,21 +5,22 @@ import { Post } from "./_types/interfaces";
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const pages = await getAllPosts();
 
+  const baseUrl = "https://edgeingbusiness.com";
   const staticPages = [
     {
-      url: "https://edgeinbusiness.com",
+      url: baseUrl,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 1,
     },
     {
-      url: "https://edgeinbusiness.com/about",
+      url: `${baseUrl}/about`,
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 0.8,
     },
     {
-      url: "https://edgeinbusiness.com/blog",
+      url: `${baseUrl}/blog`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 1,
@@ -28,7 +29,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const dynamicPages = pages.data.map((page: Post) => {
     return {
-      url: `https://edgeinbusiness/blog/${page.slug}`,
+      url: `${baseUrl}/blog/${page.slug}`,
       lastModified: page.dateModified.split("T")[0],
       changeFrequency: "yearly",
       priority: 0.5,

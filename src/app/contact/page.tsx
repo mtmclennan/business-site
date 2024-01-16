@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import Contact from "./Contact";
 
 export const metadata: Metadata = {
-  title: "Contact | EDGEINMIND: How Can we Help?",
+  title: "Contact | EdgeInBusiness: How Can we Help?",
   description: "Contact page",
 };
 

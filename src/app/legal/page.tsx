@@ -19,8 +19,9 @@ const TermsAndConditions = () => {
           <p>
             All content, including text, graphics, images, logos, and other
             materials on EdgeInBusiness.com, are the intellectual property of
-            EdgeInMind. You may not reproduce, modify, distribute, or republish
-            any content from this website without our prior written consent.
+            EdgeInBusiness. You may not reproduce, modify, distribute, or
+            republish any content from this website without our prior written
+            consent.
           </p>
           <p>&nbsp;</p>
           <p>Use of Website:</p>
@@ -41,9 +42,9 @@ const TermsAndConditions = () => {
           <p>&nbsp;</p>
           <p>Limitation of Liability:</p>
           <p>
-            EdgeInMind and its team shall not be liable for any direct,
+            EdgeInBusiness and its team shall not be liable for any direct,
             indirect, incidental, consequential, or punitive damages arising
-            from your use or inability to use EdgeInMind.com. This includes
+            from your use or inability to use EdgeInBusiness.com. This includes
             damages for errors, omissions, or delays in content, loss of data,
             or any other losses resulting from the use of this website.
           </p>
@@ -76,16 +77,16 @@ const TermsAndConditions = () => {
           <p>
             These Terms and Conditions shall be governed by and construed in
             accordance with the laws of Ontario, Canada. Any dispute arising
-            from these terms or your use of EdgeInMind.com shall be subject to
-            the exclusive jurisdiction of the courts of Ontario, Canada.
+            from these terms or your use of EdgeInBusiness.com shall be subject
+            to the exclusive jurisdiction of the courts of Ontario, Canada.
           </p>
           <p>&nbsp;</p>
           <p>Changes to Terms and Conditions:</p>
           <p>
-            EdgeInMind reserves the right to update these Terms and Conditions
-            from time to time. Any changes will be effective immediately upon
-            posting on this website. We encourage you to review these terms
-            regularly to stay informed about any modifications.
+            EdgeInBusiness reserves the right to update these Terms and
+            Conditions from time to time. Any changes will be effective
+            immediately upon posting on this website. We encourage you to review
+            these terms regularly to stay informed about any modifications.
           </p>
           <p>&nbsp;</p>
           <p>Contact Us:</p>

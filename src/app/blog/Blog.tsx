@@ -16,9 +16,9 @@ type PostsData = {
 type SetStatePostArr = React.Dispatch<React.SetStateAction<PostsData>>;
 
 export const metadata: Metadata = {
-  title: "Blog | EDGEINMIND: Mastering Stock Market Mindset for Success",
+  title: "Blog | EdgeInBusiness",
   description:
-    "EDGEINMIND: Your gateway to gaining an upper hand in the market. Harness the power of mindset, refine your approach, and achieve trading excellence.",
+    "Empower your entrepreneurial journey with EdgeInBusiness – Your go-to resource for new business owners. Explore strategic planning, marketing, finance, legal insights & more. Join our community for actionable guides and real-life success stories. Conquer challenges, savor triumphs, and build wealth with knowledge. Welcome to EdgeInBusiness",
 };
 
 const Blog = ({ posts }: PostsData) => {

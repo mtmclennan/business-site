@@ -23,7 +23,7 @@ const Home = () => {
           </div>
           <div className="hero-logo">
             <div className="hero-logo__image-container">
-              <Image src={logo} alt="EdgeInMind" width={600} height={350} />
+              <Image src={logo} alt="EdgeInBusiness" width={600} height={350} />
             </div>
           </div>
         </section>

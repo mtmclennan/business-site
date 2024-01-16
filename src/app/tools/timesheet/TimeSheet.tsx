@@ -5,8 +5,8 @@ import WeekEnding from "@/app/_components/timesheet/WeekEnding";
 import WorkDay from "@/app/_components/timesheet/WorkDay";
 import React, { useState, useReducer, useEffect } from "react";
 import TotalHours from "@/app/_components/timesheet/TotalHours";
-import weekReducer, { initialWeekState } from "@/app/_lib/reducers/weekReducer";
-import { findDayOfMonth } from "@/app/_lib/input-utils";
+// import weekReducer, { initialWeekState } from "@/app/_lib/reducers/weekReducer";
+// import { findDayOfMonth } from "@/app/_lib/input-utils";
 
 const TimeSheet = () => {
   const [employee, setEmployee] = useState("Name");
@@ -19,8 +19,6 @@ const TimeSheet = () => {
   const [thursday, dispatchThursday] = useReducer(dayReducer, initialState);
   const [friday, dispatchFriday] = useReducer(dayReducer, initialState);
   const [saturday, dispatchSaturday] = useReducer(dayReducer, initialState);
-
-  // const [weekState, dispatchWeek] = useReducer(weekReducer, initialWeekState);
 
   const onSubmitHandler = (event: React.FormEvent) => {
     event.preventDefault();
